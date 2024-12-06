@@ -1,0 +1,18 @@
+FROM node:10-alpine AS node
+
+WORKDIR /app
+
+COPY . .
+
+RUN npm i
+RUN npm run build
+
+FROM nginx:1.27-alpine
+
+COPY /nginx /etc/nginx/
+COPY --from=node /app/dist/* /usr/share/nginx/html
+COPY entrypoint.sh /docker-entrypoint.d/entrypoint.sh
+
+RUN chmod +x /docker-entrypoint.d/entrypoint.sh
+
+LABEL maintainer="Maxime"

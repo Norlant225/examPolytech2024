@@ -1,0 +1,19 @@
+    Qu'est ce que Docker ? A quoi cela sert-il ?
+
+Docker est une technologie de conteneurisation qui permet d'isoler des applications dans un environnement restreint.
+Il permet également de déployer rapidement des applications.
+
+    Qu'est ce que la CI et la CD ? Pourquoi est-ce utile ?
+
+Continous Integration et Continous Delevery / Deployment sont des concepts d'automatisation de la mise en production 
+d'application. Cela permet de réduire au maximum la friction et la peur de la mise en production.
+
+    Qu'avez vous pensez du cours ?
+
+Une initiation concise et agréable de la conteneurisation avec la technologie Docker. L'approche concept puis application tout 
+en apprenant de ses erreurs est réussie. Intervenant pédagogue et ouvert prêt à répondre à toutes questions.
+
+    Surprenez moi
+
+
+    Pusher votre code sur github avec votre fichier de réponse aux questions et envoyer moi les urls de vos repos github.
